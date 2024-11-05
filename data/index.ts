@@ -87,14 +87,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/Aggarwal-Vishal?tab=repositories",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
+  {
+    id: 3,
+    title: "Job Hunt",
+    des: "A Job Portal Web Application using the latest tech stack.",
+    img: "/jobHunt.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://job-portal-xy40.onrender.com",
+  },
   // {
   //   id: 4,
   //   title: "Animated Apple Iphone 3D Website",
@@ -213,8 +213,9 @@ export const socialMedia = [
     img: "/twit.svg",
     link: "https://x.com/VishalAggarwal_",
   },
-  // {
-  //   id: 3,
-  //   img: "/link.svg",
-  // },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "www.linkedin.com/in/vishalaggarwal007",
+  },
 ];

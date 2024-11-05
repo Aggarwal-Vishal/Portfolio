@@ -174,7 +174,7 @@ export const BentoGridItem = ({
           <div className="">
             <div className="">
               {id === 4 && (
-                <a href="https://drive.google.com/file/d/1pIPgtbJgkXprqOycuFOGQdswBz9qPJ9h/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/12zd5B9BjZH322Xo6phyI9dhj-iGo1Nm1/view?usp=sharing">
                   <MagicButton
                     title="Resume"
                     position="right"
