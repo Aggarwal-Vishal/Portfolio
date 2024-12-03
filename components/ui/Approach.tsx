@@ -8,14 +8,14 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">appraoch</span>
+        Building <span className="text-purple">Ideas Into Real Products</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
+          description="I map out my website's goals, target audience, 
+          and key functionalities. I make a blueprint of things like site structure, 
           navigation, and content requirements"
         >
           <CanvasRevealEffect
@@ -26,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements"
+          description="Working on the development of the product with the blueprint I've made and taking feedback from the clients so that the clients also get a idea of how there product's gonna look like."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,9 +41,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements"
+          description="After coding and testing the product. I push it to the production and Launch the product. This way I make products with a collaborative nature"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -117,7 +113,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
       <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
         <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-2   text-white backdrop-blur-3xl text-2xl font-bold">
-          Border Magic
+          Approach
         </span>
       </button>
     </div>
