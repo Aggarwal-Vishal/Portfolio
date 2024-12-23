@@ -121,7 +121,7 @@ export const BentoGridItem = ({
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
 
-                {["React.js", "Next.js", "Typescript"].map((item) => (
+                {["MongoDB", "Next.js", "Typescript"].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -134,16 +134,14 @@ export const BentoGridItem = ({
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
 
-                {["React.js", "JavaScript", "TailwindCSS", "Framer Motion"].map(
-                  (item) => (
-                    <span
-                      key={item}
-                      className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
+                {["ReactJS", "JavaScript", "NodeJS", "Express"].map((item) => (
+                  <span
+                    key={item}
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
               </div>
             </div>
           )}
@@ -174,7 +172,7 @@ export const BentoGridItem = ({
           <div className="">
             <div className="">
               {id === 4 && (
-                <a href="https://drive.google.com/file/d/12zd5B9BjZH322Xo6phyI9dhj-iGo1Nm1/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1QEgSgcboBHoMNPMFAMs-G3Z0cdizQD06/view?usp=sharing">
                   <MagicButton
                     title="Resume"
                     position="right"

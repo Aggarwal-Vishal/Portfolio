@@ -39,7 +39,7 @@ export const gridItems = [
   {
     id: 4,
     title: "Vishal Aggarwal",
-    description: "Frontend Devloper",
+    description: "FullStack Devloper",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 justify-center",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,8 +50,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently Learning Backend and building projects ",
-    description: "I am open to opportunities",
+    title: "I am open for opportunities to work",
+    description:
+      "Currently building real world projects and learning new things",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -73,36 +74,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Food Hub",
-    des: "A food delivering application just like swiggy made using reactjs and redux.",
-    img: "/fh1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/Aggarwal-Vishal?tab=repositories",
-  },
-  {
-    id: 2,
-    title: "Youtube",
-    des: "Video Streaming Platform just like youtube.",
-    img: "/yt.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/Aggarwal-Vishal?tab=repositories",
-  },
-  {
-    id: 3,
     title: "Job Hunt",
     des: "A Job Portal Web Application using the latest tech stack.",
     img: "/jobHunt.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://job-portal-xy40.onrender.com",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
+  {
+    id: 2,
+    title: "E-Learning: A Modern Learning Management System",
+    des: "A Robust backend with Node.js and MongoDB, paired with React for an intuitive and dynamic frontend experience.",
+    img: "/lms.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://lms-gac5.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Food Hub",
+    des: "A food delivering application just like swiggy made using reactjs and redux.",
+    img: "/fh1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/Aggarwal-Vishal?tab=repositories",
+  },
 ];
 
 export const testimonials = [
