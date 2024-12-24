@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Job Hunt",
     des: "A Job Portal Web Application using the latest tech stack.",
-    img: "/jobHunt.png",
+    img: "/jh.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://job-portal-xy40.onrender.com",
   },
